@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCases.Verify_Instawork_Appearance_in_Google_Search_Result">
+        <methods>
+          <include name="main1" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.Verify_Instawork_Appearance_in_Google_Search_Result -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
